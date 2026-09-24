@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product | COVENANT / FORM</title>
+  <meta name="description" content="View a product in the COVENANT / FORM Christian streetwear portfolio concept.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="announcement">Free U.S. shipping on orders over $100 — Concept storefront</div>
+<header class="site-header">
+  <div class="container nav">
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="shop.html">Shop</a>
+      <a href="collections.html">Collections</a>
+      <a href="about.html">Mission</a>
+    </nav>
+    <a class="brand" href="index.html" aria-label="Covenant Form home">COVENANT <span>/</span> FORM</a>
+    <div class="nav-actions">
+      <a class="hide-mobile" href="contact.html">Contact</a>
+      <button class="icon-btn" type="button" data-open-cart aria-label="Open shopping bag">
+        Bag <span class="cart-count" data-cart-count>0</span>
+      </button>
+      <button class="icon-btn mobile-toggle" type="button" data-open-menu aria-label="Open menu">Menu</button>
+    </div>
+  </div>
+</header>
+<div class="mobile-panel" aria-label="Mobile navigation">
+  <button class="mobile-close" type="button" data-close-menu aria-label="Close menu">×</button>
+  <a href="index.html">Home</a>
+  <a href="shop.html">Shop</a>
+  <a href="collections.html">Collections</a>
+  <a href="about.html">Mission</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+
+<main>
+  <div class="container" data-product-page></div>
+
+  <section class="section" style="border-top:1px solid var(--line);">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">You may also like</div>
+          <h2 class="display">Complete the rotation.</h2>
+        </div>
+        <a class="text-link" href="shop.html">Shop all</a>
+      </div>
+      <div class="product-grid" data-featured-products data-limit="4"></div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand">COVENANT <span>/</span> FORM</div>
+        <p>Faith-rooted essentials for people who want what they wear to reflect how they live.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="shop.html">All Products</a>
+        <a href="collections.html">Collections</a>
+        <a href="product.html?id=called-hoodie">Featured Product</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">Our Mission</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html">Stockists</a>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <a href="#" aria-label="Instagram placeholder">Instagram</a>
+        <a href="#" aria-label="TikTok placeholder">TikTok</a>
+        <a href="#" aria-label="Pinterest placeholder">Pinterest</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 COVENANT / FORM. Portfolio concept.</span>
+      <span>Faith × Form × Everyday Life</span>
+    </div>
+  </div>
+</footer>
+
+
+<div class="cart-backdrop" aria-hidden="true"></div>
+<aside class="cart-drawer" aria-label="Shopping bag">
+  <div class="cart-head">
+    <h2>Shopping Bag</h2>
+    <button class="icon-btn" type="button" data-close-cart aria-label="Close shopping bag">Close</button>
+  </div>
+  <div class="cart-items" data-cart-items></div>
+  <div class="cart-foot">
+    <div class="cart-total"><span>Subtotal</span><span data-cart-total>$0.00</span></div>
+    <button class="btn btn--full" type="button" onclick="alert('Portfolio demo: checkout is intentionally not connected.')">Demo Checkout</button>
+    <div class="cart-note">This portfolio storefront does not process real payments.</div>
+  </div>
+</aside>
+
+<script src="js/script.js"></script>
+</body>
+</html>
