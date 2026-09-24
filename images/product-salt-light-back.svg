@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#c4b9a6"/>
+    <stop offset="1" stop-color="#b8aa95"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="1500" fill="url(#g)"/>
+<circle cx="936" cy="270" r="192" fill="#8d6e4a" opacity=".22"/>
+<rect x="144" y="270" width="912" height="870" rx="18" fill="#ffffff" opacity=".16"/>
+<text x="96" y="1230" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" letter-spacing="5">SALT + LIGHT</text>
+<text x="96" y="1305" fill="#111111" opacity=".65" font-family="Arial, Helvetica, sans-serif" font-size="33" letter-spacing="3">CREWNECK — BACK</text>
+<text x="96" y="1410" fill="#111111" opacity=".42" font-family="Arial, Helvetica, sans-serif" font-size="27" letter-spacing="2">REPLACE WITH LICENSED EDITORIAL PHOTOGRAPHY</text>
+</svg>

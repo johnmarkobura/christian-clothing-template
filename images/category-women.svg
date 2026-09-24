@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1800" viewBox="0 0 1400 1800">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#c0b2a1"/>
+    <stop offset="1" stop-color="#b8aa95"/>
+  </linearGradient>
+</defs>
+<rect width="1400" height="1800" fill="url(#g)"/>
+<circle cx="1092" cy="324" r="224" fill="#8d6e4a" opacity=".22"/>
+<rect x="168" y="324" width="1064" height="1044" rx="18" fill="#ffffff" opacity=".16"/>
+<text x="112" y="1476" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="77" font-weight="700" letter-spacing="5">WOMEN</text>
+<text x="112" y="1566" fill="#111111" opacity=".65" font-family="Arial, Helvetica, sans-serif" font-size="38" letter-spacing="3">EDITORIAL CATEGORY IMAGE</text>
+<text x="112" y="1692" fill="#111111" opacity=".42" font-family="Arial, Helvetica, sans-serif" font-size="31" letter-spacing="2">REPLACE WITH LICENSED EDITORIAL PHOTOGRAPHY</text>
+</svg>
